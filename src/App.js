@@ -57,7 +57,7 @@ function App() {
                 window.open('about', 'tab');
               }}
             >
-              Open New Tab
+              Focus to Tab
             </button>
 
             <button
@@ -66,15 +66,6 @@ function App() {
               }}
             >
               Close
-            </button>
-
-            <button
-              onClick={() => {
-                window.focus();
-                bc.postMessage('Focus');
-              }}
-            >
-              Focus
             </button>
 
             {/* <button
